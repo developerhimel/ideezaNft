@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.approve-btn {
+  background: #0ea5e9;
+  border: none;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+
+.approve-btn:hover,
+.approve-btn:focus {
+  background-color: #38bdf8;
+  cursor: pointer;
+}
